@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lasang Bayan!</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body{
+			background: url(https://media.discordapp.net/attachments/1024827522329882676/1316000085456195644/image.png?ex=67597416&is=67582296&hm=e70467bf5308a3d9d591eab65a6bcad68b04b6f2f88939492c87882bf60d0343&=&format=webp&quality=lossless&width=687&height=386);
+			background-repeat: no-repeat;
+	        background-size: cover;
+	        background-attachment: fixed;
+	        color: white;
+		}
+		.Start{
+			text-align: center;
+			font-family: serif;
+		}
+		.food-banner {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+             margin: auto;
+            overflow: hidden;
+            border: 2px solid #000;
+        }
+
+        .background-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .container-fluid {
+            justify-content: center;
+            text-align: center;
+        }
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+        }
+        .navbar-nav .nav-link {
+            color: black !important;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #cf9700;
+            text-decoration: underline;
+        }
+        .container-fluid a {
+        	text-align:center;
+        }
+        #recipe{
+            color: #cf9700;
+            text-align: center;
+            font-family: serif;
+            font-size: 70px;
+        }
+        td{
+            padding-right: 60px;
+            padding-left: 60px;
+            padding-top: 10px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            outline: none;
+        }
+        h2{
+            text-align: center;
+        }
+        .description{
+            font-size:20px;
+        }
+        .img{
+            border: 5px solid #555;
+        }
+        ol{
+            text-align:center;
+            list-style-position: inside;
+        }
+        table{
+            background: #ffb300;
+            border: #9e6f00 5px solid;
+            border-radius: 10px;
+        }
+        td{
+            color: black;
+            font-weight: bold;
+        }
+        .instructions{
+            color: black;
+            background: white;
+            margin-left: 505px;
+            margin-right: 505px;
+            padding: 10px;
+            border: #9e6f00 5px solid;
+            border-radius: 10px;
+            background: #ffb300;
+        }
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-warning navbar-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand"><img src="https://cdn.discordapp.com/attachments/827919294418386954/1316055383663444019/Untitled_design.jpg?ex=6759a796&is=67585616&hm=338fe564602155e5685b7eccbde67fb5a9a52ec6f3e90c3176172acd6342ce5a&" width="90px" border="2px"></a>
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Recipes.html">Categories</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Submit Recipe.html">Submit Recipe</a>
+					</li>
+				</ul>
+			<form class="d-flex">
+				<input class="form-control" type="text" placeholder="Search..." style="width: 600px;">
+				<button class="btn btn-danger" type="button">Search</button>
+			</form>
+		</div>
+	</nav>
+<br><br><br>
+<br>
+<br>
+<br>
+<br>
+<div class="recipe">
+    <center>
+        <p id="recipe">Chicken Adobo</p>
+        <p>Our signiture recipe!</p>
+        <img class="img" src="https://www.maggi.ph/sites/default/files/styles/home_stage_944_531/public/srh_recipes/c57212886fc65ae41cc15e8bd488d2d6.jpg?h=28121b77&itok=lMDzhANn" width="600px"> <br>
+        <p class="description">According to several experts in Asian food history, Filipinos were cooking adobo before Spanish colonization.<br> Cooking with vinegar preserves meat, and is one of the earliest food preservation practices. <br>This is also true of pork adobo, which is another popular variation of the dish.</p>
+        <table>
+            <tr>
+                <td colspan=2><h1>INGREDIENTS</h1></td>
+            </tr>
+            <tr>
+                <td>Chicken</td>
+                <td>2 lbs.</td>
+            </tr>
+            <tr>
+                <td>Dried bay leaves</td>
+                <td>3 PCS.</td>
+            </tr>
+            <tr>
+                <td>Water</td>
+                <td>1 1/2 cup</td>
+            </tr>
+            <tr>
+                <td>Soy sauce</td>
+                <td>4 Tbsp.</td>
+            </tr>
+            <tr>
+                <td>Garlic, crushed and chopped</td>
+                <td>5 Cloves</td>
+            </tr>
+            <tr>
+                <td>White vinegar</td>
+                <td>6 Tbsp.</td>
+            </tr>
+            <tr>
+                <td>Whole peppercorn</td>
+                <td>1 Tsp.</td>
+            </tr>
+            <tr>
+                <td>Salt</td>
+                <td>1/4 Tsp.</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td>1 Tsp.</td>
+            </tr>
+            <tr>
+                <td>Cooking oil</td>
+                <td>3 Tbsp.</td>
+            </tr>
+
+        </table>
+        <br>
+        <div class="instructions">
+        <h1>COOKING INSTRUCTIONS</h1>
+        <ol>
+            <li>Add the chicken, garlic and soy sauce in a large bowl. Mix around and make sure the Chicken is well coated. Marinate for at least 1 hour Note: The longer the better.</li>
+            <li>Heat pan and when the pan is hot add cooking oil</li>
+            <li>Pan fry the marinated chicken.</li>
+            <li>Pour the extra marinade and garlic and bring to a boil.</li>
+            <li>Add dried bay leaves and whole peppercorn. Simmer for 30 mins.r</li>
+            <li>Add the vinegar and stir for 10 mins</li>
+            <li>Put-in the sugar, and salt. Stir and turn the heat off. Serve hot. Share and Enjoy!</li>
+        </ol>
+    </div>
+    </center>
+</div>
+<br>
+<br>
+</body>
+</html>
